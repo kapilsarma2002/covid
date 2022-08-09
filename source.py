@@ -40,30 +40,4 @@ fig.show()
 # sdf.show()
 
 conn.close()
-                                  
-
-
-# print(data.count())
-# print(data.columns)
-# print(data.show(10))
-# print(data.printSchema())
-'''
-print(
-  data.select(['Country', 'Deaths']) \
-  .show(20, truncate=True)
-)
-'''
-
-# print(
-#   data.describe().show()
-# )
-
-# print(
-#   data.groupBy(['Country', 'Confirmed']) \
-#     .count() \
-#     .orderBy('Confirmed', ascending=False) \
-#     .show(100)
-# )
-
-# rdd = spark.sparkContext.parallelize([1,2,3,4,5])
-# print(rdd.count())
+                                
